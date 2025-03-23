@@ -1,0 +1,19 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+# No code was selected, so a basic requirements.txt file will be generated.
+# This file contains the dependencies listed in the entire code file.
+
+streamlit==1.16.0
+google-generativeai==0.1.0
+python-dotenv==0.20.0
+langchain==0.0.128
+PyPDF2==2.11.2
+chromadb==0.1.0
+faiss-cpu==1.7.2
+langchain_google_genai==0.0.128
