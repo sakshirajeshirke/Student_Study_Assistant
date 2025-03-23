@@ -1,119 +1,106 @@
-📚 Student Study Assistant
-The Student Study Assistant is an AI-powered application designed to help students organize, analyze, and study their academic materials more effectively. It provides tools for document processing, Q&A, flashcard generation, data analysis, and study report generation.
+---
+# 📚 Student Study Assistant
 
-🚀 Features
-Document Management:
+**Student Study Assistant** is an AI-powered application designed to help students organize, analyze, and study their academic materials more effectively. It provides tools for document processing, Q&A, flashcard generation, data analysis, and study report creation.
 
-Upload and process study materials (PDF, DOCX, TXT).
+---
 
-Extract text and generate summaries using AI.
+## 🚀 Features
 
-Search and query documents for specific information.
+### 📄 Document Management
+- Upload and process study materials (`PDF`, `DOCX`, `TXT`)
+- Extract text and generate summaries using AI
+- Search and query documents for specific information
 
-Q&A Assistant:
+### ❓ Q&A Assistant
+- Ask questions about uploaded documents
+- Get AI-generated answers based on document context
 
-Ask questions about uploaded documents.
+### 🧠 Flashcard Generator
+- Automatically generate flashcards from study materials
+- Review and study flashcards interactively
 
-Get AI-generated answers based on document context.
+### 📊 Data Analysis
+- Upload datasets (`CSV`, `Excel`) for Exploratory Data Analysis (EDA)
+- Generate visualizations (e.g., correlation heatmaps, distribution plots)
+- Download comprehensive EDA reports in `HTML` format
 
-Flashcard Generator:
+### 📝 Study Report Generation
+- Generate detailed study reports summarizing your study sessions
+- Includes document summaries, key terms, flashcards, and more
 
-Automatically generate flashcards from study materials.
+### ⏱️ Study Timer
+- Track study sessions with a built-in timer
+- View total study time and session statistics
 
-Review and study flashcards interactively.
+---
 
-Data Analysis:
+## 🛠️ Installation
 
-Upload datasets (CSV, Excel) for exploratory data analysis (EDA).
+### Prerequisites
+- Python 3.8 or higher  
+- [Streamlit](https://streamlit.io)  
+- [Ollama](https://ollama.ai) (for LLM integration)  
+- Required Python libraries (`see requirements.txt`)
 
-Generate visualizations (e.g., correlation heatmaps, distribution plots).
+### Steps
 
-Download comprehensive EDA reports in HTML format.
-
-Study Report Generation:
-
-Generate detailed study reports summarizing your study sessions.
-
-Includes document summaries, key terms, flashcards, and more.
-
-Study Timer:
-
-Track study sessions with a built-in timer.
-
-View total study time and session statistics.
-
-🛠️ Installation
-Prerequisites
-Python 3.8 or higher
-
-Streamlit
-
-Ollama (for LLM integration)
-
-Required Python libraries (see requirements.txt)
-
-Steps
 Clone the repository:
-
-
+```bash
 git clone https://github.com/your-username/student-study-assistant.git
 cd student-study-assistant
-Install the required dependencies:
+```
 
-
+Install dependencies:
+```bash
 pip install -r requirements.txt
-Run the Streamlit app:
+```
 
-
+Run the app:
+```bash
 streamlit run flow.py
-Open your browser and navigate to http://localhost:8501.
+```
 
-🖥️ Usage
-Upload Documents:
+Then open your browser and go to: [http://localhost:8501](http://localhost:8501)
 
-Go to the Documents tab.
+---
 
-Upload your study materials (PDF, DOCX, or TXT).
+## 🖥️ Usage Guide
 
-Process the documents to extract text and generate summaries.
+### 📄 Upload Documents
+- Go to the **Documents** tab
+- Upload your study material (`PDF`, `DOCX`, or `TXT`)
+- Click "Process Document" to extract text and generate summaries
 
-Ask Questions:
+### ❓ Ask Questions
+- Navigate to the **Q&A** tab
+- Select a document and ask questions about its content
 
-Navigate to the Q&A tab.
+### 🧠 Generate Flashcards
+- Visit the **Flashcards** tab
+- Select a document and generate flashcards automatically
 
-Select a document and ask questions about its content.
+### 📊 Analyze Data
+- Go to the **Dataset Analysis** tab
+- Upload a dataset (`CSV` or `Excel`) and explore it visually
 
-Generate Flashcards:
+### 📝 Generate Study Reports
+- Go to the **Study Report** tab
+- Generate and download a detailed report of your study session
 
-Visit the Flashcards tab.
+### ⏱️ Track Study Time
+- Use the **Study Timer** in the sidebar to time your study sessions
 
-Select a document and generate flashcards automatically.
+---
 
-Analyze Data:
+## 📸 Screenshots
 
-Go to the Dataset Analysis tab.
+| Upload Document | Q&A Interface |
+|------------------|----------------|
+| ![upload](https://github.com/user-attachments/assets/c4411911-f47f-4e2b-a689-119646db49b5) | ![Q A](https://github.com/user-attachments/assets/c957d35d-c4a0-48e8-8850-950dfa0ac1be) |
 
-Upload a dataset (CSV or Excel) and perform exploratory data analysis.
+| Study Report | EDA | Flashcards |
+|--------------|-----|------------|
+| ![report](https://github.com/user-attachments/assets/b68ac749-42bb-4b3e-835f-8507f184854c) | ![eda](https://github.com/user-attachments/assets/d909ab01-0131-4732-ab44-057560c70d5a) | ![flashcard](https://github.com/user-attachments/assets/bd4b72ba-2050-455a-81a7-a826899a5080) |
 
-Generate Study Reports:
-
-Navigate to the Study Report tab.
-
-Generate and download a comprehensive study report.
-
-Track Study Time:
-
-Use the Study Timer in the sidebar to track your study sessions.
-
-📸 Screenshots
-![upload](https://github.com/user-attachments/assets/c4411911-f47f-4e2b-a689-119646db49b5)
-![Q A](https://github.com/user-attachments/assets/c957d35d-c4a0-48e8-8850-950dfa0ac1be)
-![report](https://github.com/user-attachments/assets/b68ac749-42bb-4b3e-835f-8507f184854c)
-![eda](https://github.com/user-attachments/assets/d909ab01-0131-4732-ab44-057560c70d5a)
-![flashcard](https://github.com/user-attachments/assets/bd4b72ba-2050-455a-81a7-a826899a5080)
-
-
-
-
-
-
+---
