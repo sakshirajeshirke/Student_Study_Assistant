@@ -1,7 +1,7 @@
 ---
 # 📚 Student Study Assistant
 
-**Student Study Assistant** is an AI-powered application designed to help students organize, analyze, and study their academic materials more effectively. It provides tools for document processing, Q&A, flashcard generation, data analysis, and study report creation.
+Student Study Assistant** is an AI-powered application designed to help students organize, analyze, and study their academic materials more effectively. It provides tools for document processing, Q&A, flashcard generation, data analysis, and study report creation.
 
 ---
 
